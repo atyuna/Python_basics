@@ -30,3 +30,19 @@ elif operation == '/':
     divide()
 else:
     print("That operation is not available.  ")
+
+    
+while on:
+    operation = input("Please type +, -, *, /, or q: ")
+    if operation == '+':
+        add()
+    elif operation == '-':
+        subtraction()
+    elif operation == '*':
+        multiply()
+    elif operation == '/':
+        divide()
+    elif operation == 'q':
+        calc_on = False
+    else:
+        print("That operation is not available.  ")
