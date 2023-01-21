@@ -30,3 +30,14 @@ print (city_name)
 num = [99, 209, 23, 9.5, 4, 0, 2933]
 num.sort()
 print(num)
+
+
+# in keyword used to check if the item is in the list
+
+print("Bora" in city_name) # - False, there is no such item in the list
+
+# count() method returns the number of times the specified element appears in the list.
+
+apples = ["Alma", "Grenny", "Mariani", "Golden", "Alma", "Golden"]
+print(apples.count("Alma"))
+print(apples.index("Mariani"))  #index() searches the position of the item in the list
