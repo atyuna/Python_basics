@@ -13,3 +13,14 @@ print(city_name, crimes, population)
 
 city_name.extend(crimes)
 print(city_name, crimes)
+
+
+# methods to remove from the list: .remove, .pop
+city_name.remove("Mosk") #removes by name
+print (city_name)
+
+city_name.pop(0) #removes by the index
+print (city_name)
+
+city_name.pop(-2) #removes by the index from the end
+print (city_name)
