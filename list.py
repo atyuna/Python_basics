@@ -6,7 +6,7 @@ norm_crimes = [3000.0, 10049.019607843136, 8000.0]
 
 print(city_name, crimes, population)
 
-# methods to add to the list: .append, .extend
+# methods to add to the list: .append(), .extend()
 
 city_name.append("Cary")
 print(city_name, crimes, population)
@@ -15,7 +15,7 @@ city_name.extend(crimes)
 print(city_name, crimes)
 
 
-# methods to remove from the list: .remove, .pop
+# methods to remove from the list: .remove(), .pop()
 city_name.remove("Mosk") #removes by name
 print (city_name)
 
@@ -24,3 +24,9 @@ print (city_name)
 
 city_name.pop(-2) #removes by the index from the end
 print (city_name)
+
+
+#.sort() method (can sort only items of like data types in list)
+num = [99, 209, 23, 9.5, 4, 0, 2933]
+num.sort()
+print(num)
