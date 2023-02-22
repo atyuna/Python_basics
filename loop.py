@@ -34,3 +34,21 @@ for number in range(1,11):
         pass
     else:
         print("The number is {}.".format(number))
+        
+        
+#______________
+
+
+# need to kill this endless loop:
+# while True:
+#     print("abc")
+
+# counter  = 1
+# while True:
+#     print(counter)
+
+# good loop:
+counter = 1
+while counter <= 10:
+    print(counter)
+    counter = counter + 1
